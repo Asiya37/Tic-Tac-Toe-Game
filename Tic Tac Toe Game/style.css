@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color:#ddfff7 ;
+}
+
+h1{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: -50px;
+    color: #2f8aad;
+    font-family: "Lilita One", serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+.container{
+    height: 70vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.boxes{
+    width: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container .boxes .box{
+height: 100px;
+width: 100px;
+border: 2px solid #93e1d8;
+background-color: #f3b9b4;
+border-radius: 5px;
+color: white;
+font-size: 50px;
+cursor: pointer;
+    font-family: "Lilita One", serif;
+    font-weight: 400;
+    font-style: normal;
+  
+  
+
+
+}
+.Output{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 540px;
+    margin-top: -30px;
+    font-size: 20px;
+    font-family: "Lilita One", serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #2f8aad;
+    margin-bottom: 40px;
+  
+}
+.Output .score{
+    display: flex;
+margin-top: 20px;
+gap: 20px;
+
+    height: 20px;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+ .btn{
+    margin-left: 1px;
+    font-size: 20px;
+    font-family: "Lilita One", serif;
+    font-weight: 200;
+    font-style: normal;
+   padding: 10px;
+   color: #2f8aad;
+    background-color:#f3b9b4 ;
+    cursor: pointer;
+    border-radius: 50px;
+    border:  2px solid ;
+
+}
+.hide{
+    display: none;
+}
+/* .container .boxes .class{
+   padding: 10px;
+   padding-left: 0;
+
+   
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   
+  
+
+}
+.container .boxes #box0{
+    border-top: none;
+    border-left: none;
+  
+}
+.container .boxes #box1{
+    border-top: none;
+    
+}
+.container .boxes #box2{
+    border-top: none;
+    border-right: none;
+}
+.container .boxes #box3{
+  
+    border-left: none;
+}
+.container .boxes #box5{
+    
+    border-right: none;
+}
+.container .boxes #box6{
+border-bottom: none;
+    border-left: none;
+}
+.container .boxes #box7{
+   border-bottom: none;
+}
+.container .boxes #box8{
+   border-right: none;
+   border-bottom: none;
+} */
